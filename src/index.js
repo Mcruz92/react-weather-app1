@@ -4,7 +4,6 @@ import './index.css';
 import "bootstrap/dist/css/bootstrap.css";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import ReactAnimatedWeather from "react-animated-weather";
 
 ReactDOM.render(
   <React.StrictMode>

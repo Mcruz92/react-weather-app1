@@ -7,16 +7,33 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Weather defaultCity="Orlando" />
-        <p className="text-center">
+
+        <footer>
+          This project was coded by{" "}
+          <a
+            href="https://www.linkedin.com/in/michele-cruz-86554b86/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Michele Ashley Cruz
+          </a>{" "}
+          and is{" "}
           <a
             href="https://github.com/Mcruz92/react-weather-app1"
             target="_blank"
             rel="noreferrer"
           >
-            Open-sourced on GitHub{" "}
+            open-sourced on GitHub
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://optimistic-wright-53e3a2.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            hosted on Netlify{" "}
           </a>
-          by Michele Ashley Cruz
-        </p>
+        </footer>
       </div>
     </div>
   );

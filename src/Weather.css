@@ -1,6 +1,6 @@
 .Weather {
-    border: 3px solid #5981ee;
-    color: rgb(202, 60, 245);
+    border: 3px solid #dddee0;
+    color: rgb(112, 130, 233);
     padding: 16px;
     margin: 20px auto;
     max-width: 600px;
@@ -10,7 +10,7 @@
 
 .Weather h1 {
    font-size: 32px;
-   font-weight: 100;
+   font-weight: bold;
    margin: 20px 0 0 0;
    line-height: 29px;
 }
